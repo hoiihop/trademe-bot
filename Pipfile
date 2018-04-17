@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+user_agent = "*"
+pylint = "*"
+requests = "*"
+"bs4" = "*"
+lxml = "*"
+"pep8" = "*"
+telepot = "*"
+apscheduler = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
